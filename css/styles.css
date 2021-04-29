@@ -10,6 +10,9 @@ body, html {
     padding: 0px;
     background-color: var(--clr-bg);
     font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 a {
@@ -27,6 +30,7 @@ header {
     height: 64px;
 }
 
+/* Header styles */
 .top-menu li {
     list-style-type: none;
     margin: 0px 50px;
@@ -84,3 +88,50 @@ header {
     margin: 0px 30px
 }
 
+/* Carousel styles */
+
+.main-carousel {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+    background-color: var(--clr-bg-panel);
+    margin-top: 50px;
+    width: 1146px;
+    height: 450px;
+}
+
+.carousel-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding-left: 96px;
+}
+
+.carousel-info p {
+    max-width: 364px;
+    max-height: 90px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 24px;
+}
+
+.carousel-info button {
+    width: 264px;
+    height: 50px;
+    background: #2B9EF2;
+    box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    color: white;
+}
+
+.main-carousel img {
+    padding: 50px 100px 92px 50px;
+}
