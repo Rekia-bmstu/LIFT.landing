@@ -28,6 +28,7 @@ button {
 
 header {
     height: 64px;
+    width: 100vw;
 }
 
 /* Header styles */
@@ -132,6 +133,43 @@ header {
     color: white;
 }
 
-.main-carousel img {
+.main-carousel > img {
     padding: 50px 100px 92px 50px;
+    max-width: 500px;
+    max-height: 500px;
+}
+
+
+/* stats styles */
+
+.stats {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1146px;
+    width: 100%;
+    height: 150px;
+    color: white;
+    padding-top: 70px;
+}
+
+.stats-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.number {
+    color: black;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 70px;
+    letter-spacing: 0.05em;
+}
+
+.header {
+    padding-top: 20px;
 }
