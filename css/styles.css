@@ -15,6 +15,9 @@ body, html {
     align-items: center;
 }
 
+html { overflow-x: hidden; }
+
+
 a {
     color: #fff;
     text-decoration: none;
@@ -172,4 +175,30 @@ header {
 
 .header {
     padding-top: 20px;
+}
+
+/* Already done styles */
+
+.already-done {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 100px;
+    max-width: 1146px;    
+    width: 100vw;
+}
+
+.already-done img:first-child {
+    width: 22px;
+    height: 70px;
+}
+
+.rectangle{
+    height: 200px;
+    width: 331px;
+    background-color: url("101Artboard 7-100.jpg");
+    outline-style: solid;
+    outline-width: 1px;
+    outline-color: white;
 }
